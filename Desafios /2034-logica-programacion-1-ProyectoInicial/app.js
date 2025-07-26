@@ -59,14 +59,50 @@ console.log(promedio); */
 
 /* Desafio 3.1:
 Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
+
+let contador = 1;
+while (contador <=10) {
+    alert(`${contador}`);
+    contador++;
+    
+}  */
+
+/* Desafio 3.2:
+Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número. 
+
+let contador = 10;
+
+while (contador >= 0) {
+    alert (`${contador}`);
+    contador--;
+}
+*/
+
+/* Desafio 3.3: 
+Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 
+hasta ese número utilizando un bucle 'while' en la consola del navegador.
+ 
+
+let numero = prompt (" Ingresa el número desde el cual quieres que cuente:");
+
+while (numero >= 0) {
+    alert (`${numero}`);
+    numero--
+}
+*/
+/* Desafio 3.4: 
+Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese 
+número utilizando un bucle 'while'
  */
 
-let contador=0;
+let numero = prompt (" Ingresa el número hasta el cual quieres que cuente:");
+let contador = 0;
 
-while (contador =<10) {
+while (contador <= numero){
+    alert (`${contador}`);
     contador++
-    alert (`${contador});
 }
+
 
 
 

@@ -1,5 +1,7 @@
 alert("¡Bienvenida y bienvenido a nuestro sitio web!");
 
+// Definición de Variables 
+
 let nombre="Lua"; // Nombre de la usuaria o usuario
 let edad=25; // Edad de la usuaria o usuario
 let numeroDeVentas=50; // Número de ventas realizadas por la usuaria o usuario
