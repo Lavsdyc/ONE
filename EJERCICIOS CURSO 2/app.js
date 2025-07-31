@@ -30,3 +30,52 @@ function sumaDeNumeros(){
    let resultado = numero1+numero2;
    alert(`La suma de ${numero1} y ${numero2} es ${resultado}`);
 }
+
+/* Desafío 2.1: Crear una función que muestre "¡Hola, mundo!" en la consola. */
+function mensajeEnConsola(){
+   console.log("¡Hola, mundo!");
+}
+mensajeEnConsola();
+
+/*Desafío 2.2: Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!"
+ en la consola. */
+
+ function saludarNombre (){
+   let nombre = prompt("¿cuál es tu nombre?");
+   console.log(`¡Hola, ${nombre}`);
+ }
+ saludarNombre();
+
+ /*Desafío 2.3: Crear una función que reciba un número como parámetro y devuelva el doble de ese número.*/
+ function dobleDeUnNumero(numero){
+   return numero * 2;
+ }
+console.log(dobleDeUnNumero(10));
+
+/*Desafío 2.4: Crear una función que reciba tres números como parámetros y devuelva su promedio.*/
+function promedioDeTresNumeros(numero1, numero2, numero3){
+   return (numero1 + numero2 + numero3)/ 3;
+}
+console.log(promedioDeTresNumeros(4,5,7));
+
+/*Desafío 2.5: Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.*/
+/*Esta es mi forma
+function numeroMayor (numero1, numero2){
+   if(numero1 > numero2){
+      return numero1;
+   }else{
+      return numero2;
+   }
+      */
+
+   function numeroMayor(a, b) {
+  return a > b ? a : b;
+}
+console.log (numeroMayor(7,5));
+
+/*Desafío 2.6: Crear una función que reciba un número como parámetro y devuelva el resultado de 
+multiplicar ese número por sí mismo.*/
+function multiploDeSiMismo (numero){
+   return numero*numero;
+}
+console.log (multiploDeSiMismo(10));
