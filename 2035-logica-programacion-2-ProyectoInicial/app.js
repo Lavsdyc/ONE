@@ -1,6 +1,7 @@
 let numeroMaximo = 10;
 let numeroSecreto = 0;
 let intentos = 1;
+let listaNumerosSorteados = [];
 
 
 function asignarTextoEtiqueta(etiqueta,texto){
@@ -55,5 +56,20 @@ condicionesIniciales();
 
 
 function generarNumeroSecreto() {
-    return Math.floor(Math.random() * numeroMaximo) + 1;
+    let numeroGenerado = Math.floor(Math.random() * numeroMaximo) + 1;
+    console.log(numeroGenerado);
+    console.log(listaNumerosSorteados);
+
+    //Si se sortean todos los números:
+    if (listaNumerosSorteados.length == numeroMaximo){
+        asignarTextoEtiqueta('p', 'Ya se generaron todos los números posibles. Reinicia para seguir jugando.');
+    }else{
+
+        if(listaNumerosSorteados.includes(numeroGenerado)){
+            return generarNumeroSecreto();
+        }else{
+            listaNumerosSorteados.push(numeroGenerado);
+            return numeroGenerado;
+        }
+    }
 }
