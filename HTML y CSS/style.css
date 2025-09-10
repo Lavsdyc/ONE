@@ -5,9 +5,16 @@
 body{
     background-color: black;
     color: white;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 
 .titulo-destaque {
     color: aqua;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
 }
