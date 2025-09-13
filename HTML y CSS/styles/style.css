@@ -10,6 +10,25 @@ body{
     box-sizing: border-box;
 }
 
+.header {
+    padding: 2% 0% 0% 15%;
+
+}
+
+.header__menu {
+    display: flex ;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;    
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    
+}
+
 
 .titulo-destaque {
     color: aqua;
@@ -18,7 +37,7 @@ body{
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 15% 20%;
+    padding: 8% 20%;
     justify-content: space-between;
 }
 
@@ -79,21 +98,10 @@ body{
     background-color: #22D4FD;
     padding: 24px;
     color: black;
-    text-align: center;
+    text-align:center;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
 
 }
 
-.header {
-
-}
-
-.header__menu {
-
-}
-
-class="header__menu__link" {
-    
-}
