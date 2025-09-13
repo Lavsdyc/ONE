@@ -43,17 +43,26 @@ body{
 .presentacion__redes {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+   align-items: center;
+   gap: 32px;
 }
 
 .presentacion__enlaces {
     width: 280px;
-    background-color: #22D4FD;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;    
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
+    border: 2px solid #22D4FD;
+}
+.presentacion__redes__titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 28px;
+    font-weight:400; 
+    
 }
