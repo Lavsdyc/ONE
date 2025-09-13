@@ -59,7 +59,16 @@ body{
     text-decoration: none;
     color: #f6f6f6;
     border: 2px solid #22D4FD;
+    display: flex ;
+    justify-content: center;
+    gap: 10px;
+
 }
+    
+.presentacion__enlaces:hover {
+    background-color: #22D4FD;
+}
+
 .presentacion__redes__titulo {
     font-family: "Krona One", sans-serif;
     font-size: 28px;
